@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:include="/page_parts/_head"></th:block>
+
+<body>
+<th:block th:include="/page_parts/_menu"></th:block>
+
+<div class="site-body">
+    <div class="container">
+        <div class="starter-template" align="center">
+                <div class="alert alert-success" th:text="${message}"></div>
+        </div>
+    </div>
+</div>
+
+<th:block th:include="/page_parts/_footer"></th:block>
+</body>
+</html>
